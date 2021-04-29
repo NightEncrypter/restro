@@ -1,0 +1,344 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Main styling */
+html,
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	padding-bottom: 20px;
+}
+
+p {
+	margin: 10px 0;
+}
+.core {
+	color: #538523;
+}
+.l-heading {
+	font-size: 40px;
+	line-height: 1.2;
+}
+/* Padding */
+.py-1 {
+	padding: 10px 0;
+}
+.py-2 {
+	padding: 20px 0;
+}
+.py-3 {
+	padding: 30px 0;
+}
+
+/* Navbar */
+#navbar {
+	background: #000;
+	/* color: #660013; */
+	overflow: auto;
+}
+
+#navbar a {
+	color: #f4f4f4;
+}
+
+#navbar .logo {
+	float: left;
+	/* padding: 13px 0; */
+	padding-top: 20px;
+}
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	/* background: aqua; */
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+	background: #222;
+
+	color: #deaa1b;
+	/* border: 0.1px white solid; */
+}
+/* Utility  classes*/
+
+.container {
+	margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.btn {
+	display: inline-block;
+	color: white;
+	background: black;
+	padding: 10px 9px;
+	cursor: pointer;
+
+	/* border-radius: 1px; */
+
+	font-size: 17px;
+}
+.btn:hover {
+	color: white;
+
+	/* border: 1.5px black solid; */
+	background: #603820;
+}
+.btn-light {
+	border: 1px solid #9c9c9c;
+	/* background: #9c9c; */
+	color: white;
+	padding: 9px 10px;
+}
+.btn-light:hover {
+	color: white;
+	background-color: #343434;
+	border: none;
+}
+.bg-dark {
+	background: #000;
+	color: #f4f4f4;
+	/* color: #333; */
+}
+
+.btn-extra {
+	background: white;
+	padding: 9px 12px;
+}
+.bg-light {
+	background: #222;
+	color: white;
+}
+.bg-primary {
+	background: #333;
+	color: #f4f4f4;
+}
+
+.text-primary {
+	color: #666966;
+}
+.lead {
+	font-size: 20px;
+}
+
+/* Showcase */
+#showcase {
+	background: url('./img/pexels-cottonbro-4676400.jpg') no-repeat center center/cover;
+	height: 600px;
+	opacity: 0.9;
+}
+
+#showcase .showcase-content {
+	color: white;
+	text-align: center;
+	padding-top: 120px;
+}
+
+#showcase .showcase-content h1 {
+	font-size: 60px;
+	line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+	padding-bottom: 20px;
+	line-height: 1.7em;
+}
+/* Home info */
+#home-info {
+	height: 450px;
+}
+
+#home-info .info-img {
+	float: left;
+	width: 50%;
+	background: url('./img/pexels-geraud-pfeiffer-6607317.jpg') no-repeat center center/cover;
+	min-height: 80%;
+}
+
+#home-info .info-content {
+	float: right;
+	width: 50%;
+	padding: 50px 30px;
+	min-height: 100%;
+	text-align: center;
+	color: #f4f4f4;
+	overflow: hidden;
+}
+#home-info .info-content p {
+	padding-bottom: 20px;
+}
+
+/* Features */
+.box {
+	float: left;
+	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+}
+
+.box i {
+	margin-bottom: 10px;
+}
+
+/*  */
+
+.clr {
+	clear: both;
+}
+.clr1 {
+	clear: both;
+}
+
+.star {
+	/* background: white; */
+	color: black;
+	padding: 20px;
+}
+.stars {
+	background: black;
+	color: white;
+	padding: 20px;
+}
+.star:hover {
+	background: black;
+	border-radius: 50%;
+
+	color: white;
+}
+.star1 {
+	background: black;
+	color: white;
+	padding: 20px;
+}
+.star2 {
+	/* background: ; */
+	color: white;
+	padding: 25px;
+}
+.star1:hover {
+	background: white;
+	border-radius: 50%;
+
+	color: black;
+}
+.star2:hover {
+	background: black;
+	border-radius: 50%;
+
+	color: white;
+}
+.stars:hover {
+	background: white;
+	border-radius: 50%;
+
+	color: black;
+}
+
+/* About info */
+
+/* Foooter */
+#main-footer {
+	text-align: center;
+	background: #000;
+	color: #f4f4f4;
+	padding: 20px;
+}
+
+#about-info .info-right {
+	float: right;
+	width: 50%;
+	min-height: 100%;
+}
+
+#about-info .info-right img {
+	display: block;
+	border-radius: 50%;
+	width: 70%;
+	padding: 5px;
+	margin: auto;
+	margin: 70px 25px;
+}
+#about-info .info-left {
+	float: left;
+	width: 50%;
+	padding: 20px;
+	min-height: 100%;
+}
+
+/* testimonials */
+#testimonial {
+	min-height: 100%;
+	background: url('./img/cover2.jpg') no-repeat center center/cover;
+}
+
+#testimonial h2 {
+	color: #fff;
+	text-align: center;
+	padding-bottom: 40px;
+}
+#testimonial .testimonials {
+	padding: 70px;
+	margin-bottom: 40px;
+	overflow: hidden;
+	border-radius: 100%;
+	opacity: 0.8;
+}
+#testimonial .testimonials img {
+	width: 100px;
+	float: left;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+#testimonial .testimonials p {
+	padding: 10px;
+}
+
+/* Contct Form */
+#contact-form input,
+#contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	/* border: none; */
+	border: 1px #538523 solid;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+	outline: none;
+	border-color: blueviolet;
+}
+
+#contact-form textarea {
+	height: 100px;
+}
+#contact-form label {
+	display: block;
+}
+#contact-form .form-group {
+	padding: 10px;
+	margin-bottom: 20px;
+}

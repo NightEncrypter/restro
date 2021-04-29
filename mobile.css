@@ -1,0 +1,92 @@
+#navbar .logo {
+	float: none;
+	text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+	float: none;
+}
+
+/*  */
+#navbar ul li a {
+	padding: 8px;
+	border-bottom: #444 dotted 1px;
+}
+
+/* Home info */
+#home-info {
+	height: 550px;
+}
+#home-info .info-img {
+	display: none;
+}
+
+#home-info .info-content {
+	float: none;
+	width: 100%;
+	padding-top: 150px;
+}
+
+/* Boxes */
+.box {
+	float: none;
+	width: 100%;
+}
+
+/* About */
+#about-info .info-left,
+#about-info .info-right {
+	float: none;
+	width: 100%;
+	min-height: 100%;
+}
+#about-info .info-right {
+	margin-top: 25px;
+}
+#about-info .info-right img {
+	display: block;
+	border-radius: 50%;
+	width: 100%;
+	margin: auto;
+	margin: 20px 0;
+}
+
+.l-heading {
+	text-align: center;
+}
+#testimonial .testimonials {
+	padding: 70px;
+	margin-bottom: 40px;
+	overflow: hidden;
+	border-radius: 5%;
+	opacity: 0.8;
+}
+
+#testimonial .testimonials img {
+	display: block;
+	min-width: 200px;
+	margin: auto;
+
+	float: none;
+
+	border-radius: 20%;
+}
+#testimonial .testimonials p {
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* contact */
+/* #contact-info .box {
+	border-bottom: 1px grey solid;
+} */
+
+/* Showcase */
+
+#showcase {
+	min-height: 100%;
+}
+#showcase .showcase-content .btn {
+	margin-top: 20px;
+}
